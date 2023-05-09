@@ -1,0 +1,10 @@
+body {
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    grid-template-rows: min-content 1fr;
+}
+
+#sidebar {
+    grid-column: 1;
+    grid-row: 1 / -1;
+}
