@@ -33,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: white;
+    color: #ffffff;
 }
 
 #sidebar li img {
@@ -48,8 +48,77 @@ body {
 #sidebar li {
     display: flex;
     align-items: center;
-    color: white;
+    color: #ffffff;
     font-size: 1.2rem;
     font-weight: 500;
     margin: 18px 0;
+}
+
+header {
+    padding: 18px 36px;
+    margin-right: 64px;
+}
+
+header #upper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header #upper img {
+    height: 1.6rem;
+}
+
+header #upper #search {
+    flex: 1;
+    background-color: #e2e8f0;
+    height: 1.8rem;
+    border-radius: 16px;
+    margin-right: 128px;
+}
+
+header #upper img#photo {
+    height: 3.6rem;
+    margin: 0 14px;
+}
+
+header #upper p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+header #bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+header #bottom img {
+    height: 5.4rem;
+}
+
+header #bottom > div {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+header #bottom h2 {
+    margin: 0;
+}
+
+header #bottom p {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+header #bottom button {
+    color: white;
+    background-color: #1992d4;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 24px;
 }
